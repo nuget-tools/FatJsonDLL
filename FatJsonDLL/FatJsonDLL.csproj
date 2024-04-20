@@ -2,7 +2,7 @@
   <PropertyGroup>
     <LangVersion>latest</LangVersion>
     <TargetFrameworks>net462</TargetFrameworks>
-    <Version>2024.0420.1624.09</Version>
+    <Version>2024.0420.1721.05</Version>
     <Nullable>enable</Nullable>
     <ImplicitUsings>disable</ImplicitUsings>
     <RootNamespace>FatJsonDLL</RootNamespace>
@@ -41,16 +41,7 @@
     <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="JsonDLL" Version="2024.420.1604.30" />
-    <!--
-    <PackageReference Include="Antlr4.Runtime.Standard" Version="4.13.1" />
-    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
-    <PackageReference Include="LiteDB" Version="5.0.17" />
-    <PackageReference Include="Jint" Version="3.1.0" />
-    <PackageReference Include="Microsoft.Data.Sqlite.Core" Version="8.0.4" />
-    <PackageReference Include="SQLitePCLRaw.core" Version="2.1.8" />
-    <PackageReference Include="SQLitePCLRaw.provider.sqlite3" Version="2.1.8" />
-    -->
+    <PackageReference Include="JsonDLL" Version="2024.420.1710.1" />
   </ItemGroup>
   <ItemGroup>
     <None Include="../README.md" Pack="true" PackagePath="" />
