@@ -16,7 +16,7 @@ public class Busybox
     {
         string busyboxExe = Path.Combine(resDir, "busybox.exe");
         string tempFile = Path.GetTempFileName();
-        DLL1.API.CallOne("write_all_text_local8bit", new string[] { tempFile, script });
+        DLL1.API.Call("write_all_text_local8bit", new string[] { tempFile, script });
         string PATH = Environment.GetEnvironmentVariable("PATH");
         PATH = resDir + ";" + PATH;
         int result = ProcessRunner.RunProcess(windowed, busyboxExe, new string[] { "bash", tempFile }, cwd, new Dictionary<string, string> {
@@ -29,7 +29,7 @@ public class Busybox
     {
         string busyboxExe = Path.Combine(resDir, "busybox.exe");
         string tempFile = Path.GetTempFileName();
-        DLL1.API.CallOne("write_all_text_local8bit", new string[] { tempFile, script });
+        DLL1.API.Call("write_all_text_local8bit", new string[] { tempFile, script });
         string PATH = Environment.GetEnvironmentVariable("PATH");
         PATH = resDir + ";" + PATH;
         bool result = ProcessRunner.LaunchProcess(windowed, busyboxExe, new string[] { "bash", tempFile }, cwd, new Dictionary<string, string> {

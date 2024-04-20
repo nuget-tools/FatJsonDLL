@@ -2,7 +2,7 @@
   <PropertyGroup>
     <LangVersion>latest</LangVersion>
     <TargetFrameworks>net462</TargetFrameworks>
-    <Version>2024.0420.1721.05</Version>
+    <Version>2024.0420.1837.13</Version>
     <Nullable>enable</Nullable>
     <ImplicitUsings>disable</ImplicitUsings>
     <RootNamespace>FatJsonDLL</RootNamespace>
@@ -41,7 +41,7 @@
     <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="JsonDLL" Version="2024.420.1710.1" />
+    <PackageReference Include="JsonDLL" Version="2024.420.1829.9" />
   </ItemGroup>
   <ItemGroup>
     <None Include="../README.md" Pack="true" PackagePath="" />
